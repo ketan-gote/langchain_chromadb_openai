@@ -1,0 +1,10 @@
+openai
+langchain~=0.0.270
+pinecone-client
+python-dotenv~=1.0.0
+tiktoken
+chromadb
+sentence_transformers
+unstructured
+html2text
+requests
