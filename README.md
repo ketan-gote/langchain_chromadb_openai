@@ -32,6 +32,7 @@ In the last example, if we look at answer it says I don’t have info about Mike
 - Once SQL is created, it will get executed and give the output
   
 Sample Output Of above Example
+
 Q1 : Give me number of countries present
 
 A1 : This given a SQL "SELECT COUNT(*) FROM country" and provided output as 247
