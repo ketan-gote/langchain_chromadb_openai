@@ -31,6 +31,14 @@ In the last example, if we look at answer it says I don’t have info about Mike
 - You can feed in natural language queries, which will get properly converted to SQL
 - Once SQL is created, it will get executed and give the output
   
+Sample Output Of above Example
+Q1 : Give me number of countries present
+A1 : This given a SQL "SELECT COUNT(*) FROM country" and provided output as 247
+
+Q1 : Give me all countries where region is Asia
+A1 : This given a SQL "SELECT country_name FROM country JOIN region_m ON country.region_id = region_m.region_id WHERE region_name = 'Asia'" and provided proper output
+
+
 
 Enjoy!
 Happy Learning :)
